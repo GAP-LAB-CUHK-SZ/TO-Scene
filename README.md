@@ -23,9 +23,7 @@ If you find our work useful in your research, please consider citing:
 
 ## Dataset
 _TO\_Vanilla_ is temporarily available in the format of
-[.npz file](https://drive.google.com/file/d/1P484ZsGmAcaP26WVY_EYbFmN_5nkVqOl/view?usp=sharing)
-and  
-[.ply file](https://drive.google.com/file/d/1-kdWNuavWRK5ZwNXriYqTpY6S_wpABhp/view?usp=sharing).
+[.npz file](https://drive.google.com/file/d/1P484ZsGmAcaP26WVY_EYbFmN_5nkVqOl/view?usp=sharing) and [.ply file](https://drive.google.com/file/d/1-kdWNuavWRK5ZwNXriYqTpY6S_wpABhp/view?usp=sharing).
 
 __Note__:
 More details and other variants of our dataset, as well as more implementations of models, data pre-processing will be released soon, via a complete website!
