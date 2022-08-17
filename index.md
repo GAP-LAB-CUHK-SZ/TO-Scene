@@ -25,7 +25,7 @@ Our work has been published to ECCV2022 (Oral). If you use the TO-Scene data or 
 
 Please visit our main project repository for more information and access to code, data: [Here](https://github.com/GAP-LAB-CUHK-SZ/TO-Scene)
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h59lkm18dqj20u015ugx8.jpg" alt="image-20220817112242837" style="zoom:80%;" />
+<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h59lkm18dqj20u015ugx8.jpg" alt="image-20220817112242837" style="zoom:67%;" />
 
 
 
