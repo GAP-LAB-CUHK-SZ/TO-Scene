@@ -27,9 +27,41 @@ Please visit our main project repository for more information and access to code
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h59lkm18dqj20u015ugx8.jpg" alt="image-20220817112242837" style="zoom:80%;" />
 
+
+
 ### Benchmarks
 
+#### Overview
+
+We furthermore provide with the data also a benchmark suite covering different aspects of semantic scene understanding at different levels. To ensure unbiased evaluation of these tasks, we follow the common best practice to use a server-side evaluation of the test set results, which enables us to keep the test set labels private.
+
+Test set evaluation is performed using [CodaLab competitions](https://competitions.codalab.org/competitions/). For each task, we setup a competition handling the submissions and scoring them using the non-public labels for the test set sequences. See the individual competition websites for further details on the participation process. Here, we will only provide the metrics and the leaderboards.
+
+#### 3D Semantic Segmentation Benchmark
+
+See our [competition website](https://competitions.codalab.org/competitions/) for more information on the competition and submission process.
+
+**Evaluation and metrics**
+
+Our evaluation ranks all methods according to the PASCAL VOC intersection-over-union metric (IoU). IoU = TP/(TP+FP+FN), where TP, FP, and FN are the numbers of true positive, false positive, and false negative pixels, respectively. Predicted labels are evaluated per-vertex over the respective 3D scan mesh; for 3D approaches that operate on other representations like grids or points, the predicted labels should be mapped onto the mesh vertices.
+
+**Leaderboard**
+
 Coming soon...
+
+#### 3D Instance Detection Benchmark
+
+See our [competition website](https://competitions.codalab.org/competitions/) for more information on the competition and submission process.
+
+**Evaluation and metrics**
+
+Our evaluation ranks all methods according to the average precision for each class. We report the mean average precision AP at overlap 0.25 (AP 25%), overlap 0.5 (AP 50%), and over overlaps in the range [0.5:0.95:0.05] (AP). Note that multiple predictions of the same ground truth instance are penalized as false positives.
+
+**Leaderboard**
+
+Coming soon...
+
+
 
 ### News
 
