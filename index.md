@@ -1,4 +1,4 @@
-## TO-Scene
+# TO-Scene
 
 Many basic indoor activities such as eating or writing are always conducted upon different tabletops (e.g., coffee tables, writing desks). It is indispensable to understanding tabletop scenes in 3D indoor scene parsing applications. Unfortunately, it is hard to meet this demand by directly deploying data-driven algorithms, since 3D tabletop scenes are rarely available in current datasets. 
 
@@ -21,7 +21,7 @@ Our work has been published to ECCV2022 (Oral). If you use the TO-Scene data or 
 
 
 
-### Data
+# Data
 
 Please visit our main project repository for more information and access to code, data: [Here](https://github.com/GAP-LAB-CUHK-SZ/TO-Scene)
 
@@ -29,15 +29,15 @@ Please visit our main project repository for more information and access to code
 
 
 
-### Benchmarks
+# Benchmarks
 
-#### Overview
+## Overview
 
 We furthermore provide with the data also a benchmark suite covering different aspects of semantic scene understanding at different levels. To ensure unbiased evaluation of these tasks, we follow the common best practice to use a server-side evaluation of the test set results, which enables us to keep the test set labels private.
 
 Test set evaluation is performed using [CodaLab competitions](https://competitions.codalab.org/competitions/). For each task, we setup a competition handling the submissions and scoring them using the non-public labels for the test set sequences. See the individual competition websites for further details on the participation process. Here, we will only provide the metrics and the leaderboards.
 
-#### 3D Semantic Segmentation Benchmark
+## 3D Semantic Segmentation Benchmark
 
 See our [competition website](https://competitions.codalab.org/competitions/) for more information on the competition and submission process.
 
@@ -49,7 +49,7 @@ Our evaluation ranks all methods according to the PASCAL VOC intersection-over-u
 
 Coming soon...
 
-#### 3D Instance Detection Benchmark
+## 3D Instance Detection Benchmark
 
 See our [competition website](https://competitions.codalab.org/competitions/) for more information on the competition and submission process.
 
@@ -63,7 +63,7 @@ Coming soon...
 
 
 
-### News
+# News
 
 * 2022-08-17: Benchmark Challenge available
 
