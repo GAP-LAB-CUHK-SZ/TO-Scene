@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## TO-Scene
 
-You can use the [editor on GitHub](https://github.com/GAP-LAB-CUHK-SZ/TO-Scene/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Many basic indoor activities such as eating or writing are always conducted upon different tabletops (e.g., coffee tables, writing desks). It is indispensable to understanding tabletop scenes in 3D indoor scene parsing applications. Unfortunately, it is hard to meet this demand by directly deploying data-driven algorithms, since 3D tabletop scenes are rarely available in current datasets. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+To remedy this defect, we introduce TO-Scene, a large-scale dataset focusing on tabletop scenes, which contains 20,740 scenes with three variants. To acquire the data, we design an efficient and scalable framework, where a crowdsourcing UI is developed to transfer CAD objects from ModelNet and ShapeNet onto tables from ScanNet, then the output tabletop scenes are simulated into real scans and annotated automatically.
 
-### Markdown
+More information can be found in our [paper](https://arxiv.org/abs/2203.09440).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h593b8omhtj22yn0u0du0.jpg" alt="pipeline_new.jpg"  />
 
-```markdown
-Syntax highlighted code block
+Our work has been published to ECCV2022 (Oral). If you use the TO-Scene data or code please cite:
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+@inproceedings{xu2022toscene,
+  title={TO-Scene: A Large-scale Dataset for Understanding 3D Tabletop Scenes},
+  author={Xu, Mutian and Chen, Pei and Liu, Haolin and Han, Xiaoguang},
+  booktitle={ECCV},
+  year={2022}
+}
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GAP-LAB-CUHK-SZ/TO-Scene/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Data
 
-### Support or Contact
+Please visit our main project repository for more information and access to code, data: https://github.com/GAP-LAB-CUHK-SZ/TO-Scene
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h59lkm18dqj20u015ugx8.jpg" alt="image-20220817112242837" style="zoom:80%;" />
+
+### Benchmarks
+
+Coming soon...
+
+### News
+
+* 2022-08-17: Benchmark Challenge available
+
+* 2022-08-17: TO-Scene initial release
