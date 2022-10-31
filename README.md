@@ -36,6 +36,8 @@ Alternatively, for mainland China users, we also provide Baiduyun link:
 | **ply** (point cloud)                                      | [Download (4.3GB)](https://pan.baidu.com/s/1r0D6HnjHJC2eR-Ifwo6Iig?pwd=0000) | [Download (2.1GB)](https://pan.baidu.com/s/1jlrhJkFr00AXce55miRRmw?pwd=0000) | [Download (4.3GB)](https://pan.baidu.com/s/1wbynKbxWr4nNZLrBPSIAJw?pwd=0000) |
 | **npz** (xyz, color, semantic_label, instance_label, bbox) | [Download (6.2GB)](https://pan.baidu.com/s/1yXlFv5X8byEkuoFtuSAVUg?pwd=0000) | [Download (2.8GB)](https://pan.baidu.com/s/1mMJhOo-6uXMR9RPz3snG0g?pwd=0000) | [Download (6.5GB)](https://pan.baidu.com/s/1D-_M6L4iu5S7eRGgXQI0RA?pwd=0000) |
 
+For ease of use, we provide **mata_data** ([Google Drive](https://drive.google.com/file/d/16E1Gb91ctGysmWhbeUwYF3-ssQ1Dw0Rm/view?usp=sharing), [Baiduyun](https://pan.baidu.com/s/1jr2JHvxYS1cI3O0xb78lmQ?pwd=0000)), including train/val/test split in format of .txt and pre-calculated mean_size_arr (mean size of objects of different classes).
+
 ## Code
 
 We have provided an initial version of our code implementations at [here](./initial_code), including [Point Transformer](https://github.com/POSTECH-CVLab/point-transformer) for the semantic segmentation task.
