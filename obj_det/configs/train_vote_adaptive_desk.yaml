@@ -1,0 +1,45 @@
+resume: False
+method: votenet_adaptive
+exp_name: votenet_adaptive_1123
+hm_pretrain_path: ./checkpoints/TO-crowrd_heatmap_1121/model_best.pth
+device:
+  use_gpu: True
+  gpu_ids: "2"
+data:
+  dataset: TOS_desk
+  data_dir: ./data/TO-crowd-wHM
+  use_color: False
+  use_height: True
+  use_aug: True
+  batch_size: 8
+  num_workers: 8
+  ap_iou_thresh: 0.25
+  npoints: 40000
+model:
+  input_feature_dim: 1
+  num_proposal: 512
+  vote_factor: 1
+  sampling: vote_fps
+optimizer:
+  type: Adam
+  lr: 0.001
+  beta1: 0.9
+  beta2: 0.999
+  #momentum: 0
+  eps:
+  weight_decay:
+  bn_decay_step: 20
+  bn_decay_rate: 0.5
+  use_bnm_scheduler: True
+scheduler:
+  type: MultiStepLR
+  milestone: [80,120,160]
+  gamma: 0.1
+other:
+  nepoch: 180
+  model_save_interval: 1
+  model_save_dir: ./checkpoints
+  log_interval: 100
+  dump_result: True
+  dump_interval: 1000
+  test_interval: 10

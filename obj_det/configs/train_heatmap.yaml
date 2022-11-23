@@ -1,0 +1,37 @@
+resume: False
+method: heatmap
+exp_name: TO-crowrd_heatmap_1121
+device:
+  use_gpu: True
+  gpu_ids: "2"
+data:
+  dataset: TOS_desk
+  data_dir: ./data/TO-crowd-wHM
+  use_color: False
+  use_height: True
+  use_aug: True
+  batch_size: 8
+  num_workers: 8
+  ap_iou_thresh: 0.25
+  npoints: 40000
+model:
+  input_feature_dim: 1
+optimizer:
+  type: Adam
+  lr: 0.001
+  beta1: 0.9
+  beta2: 0.999
+  #momentum: 0
+  eps:
+  weight_decay:
+scheduler:
+  type: MultiStepLR
+  milestone: [50,80]
+  gamma: 0.1
+other:
+  nepoch: 100
+  model_save_interval: 1
+  model_save_dir: ./checkpoints
+  dump_result: True
+  dump_interval: 1000
+  test_interval: 10
