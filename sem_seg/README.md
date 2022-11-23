@@ -1,4 +1,4 @@
-# 3D Semantic Segmentation.
+# 3D Semantic Segmentation
 This repository runs [Point Transformer](https://arxiv.org/abs/2012.09164) on TO-Scene for 3D semantic segmentation task.
 The codebase comes from a reproduction at [here](https://github.com/POSTECH-CVLab/point-transformer).
 
