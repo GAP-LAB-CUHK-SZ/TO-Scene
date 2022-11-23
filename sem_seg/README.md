@@ -2,7 +2,6 @@
 This repository runs [Point Transformer](https://arxiv.org/abs/2012.09164) on TO-Scene for 3D semantic segmentation task.
 The codebase comes from a reproduction at [here](https://github.com/POSTECH-CVLab/point-transformer).
 
----
 ## Environment
 
 1. Dependencies:
@@ -17,10 +16,8 @@ cd lib/pointops
 python3 setup.py install
 ```
 
----
 ## Dataset preparation
 - Download our dataset following the [README](../README.md) at the main page:
----
 
 ## Usage
 - Train
@@ -47,7 +44,6 @@ python3 setup.py install
 - Result visualization
   - You may refer to [vis_tovanilla.py](./vis_tovanilla.py) and [vis_tocrowd.py](./vis_tocrowd.py) for visualizing the final evaluation results.
 
----
 ## Acknowledgement
 The code is based on [Point Transformer](https://arxiv.org/abs/2012.09164) at [here](https://github.com/POSTECH-CVLab/point-transformer).
 We also refer [PAConv repository](https://github.com/CVMI-Lab/PAConv).
