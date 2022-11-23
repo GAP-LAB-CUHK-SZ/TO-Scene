@@ -42,10 +42,10 @@ python3 setup.py install
     ```
 
 - Run your own model
-  - Youo can also run your own model on TO-Scene, by simply employing the data extraction in [tovanilla_crowd.py](./util/tovanilla_crowd.py) for running on TO_Vanilla or TO_Crowd and [toscannet.py](./util/toscannet.py) for running on TO_ScanNet.
+  - You can also run your own model on TO-Scene, by simply employing the data extraction in [tovanilla_crowd.py](./util/tovanilla_crowd.py) for running on TO_Vanilla or TO_Crowd and [toscannet.py](./util/toscannet.py) for running on TO_ScanNet.
 
 - Result visualization
-  - You may refer to [vis_tovanilla.py](./vis_vanilla.py) and [vis_tocrowd.py](./vis_tocrowd.py) for visualizing the final evaluation results.
+  - You may refer to [vis_tovanilla.py](./vis_tovanilla.py) and [vis_tocrowd.py](./vis_tocrowd.py) for visualizing the final evaluation results.
 
 ---
 ## Acknowledgement
