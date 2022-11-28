@@ -1,7 +1,7 @@
 resume: False
 method: votenet_adaptive
-exp_name: votenet_adaptive_1123
-hm_pretrain_path: ./checkpoints/TO-crowrd_heatmap_1121/model_best.pth
+exp_name: votenet_adaptive_1125
+hm_pretrain_path: ./checkpoints/TO-crowrd_heatmap_1124/model_best.pth
 device:
   use_gpu: True
   gpu_ids: "2"

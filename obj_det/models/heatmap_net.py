@@ -4,7 +4,7 @@ import torch.nn as nn
 
 
 class Heatmap_Net(nn.Module):
-    def __init__(self,input_feature_dim=1,npoints=[2048,1024,512,256],radius=[0.04,0.08,0.16,0.24]):
+    def __init__(self,input_feature_dim=1,npoints=[4096, 2048, 1024, 512],radius=[0.04, 0.08, 0.16, 0.24]):
         super().__init__()
         print(input_feature_dim)
         self.sa1 = PointnetSAModuleVotes(

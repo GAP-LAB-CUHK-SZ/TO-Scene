@@ -75,7 +75,7 @@ class VoteNet_adaptive(nn.Module):
             self.heatmap_net = Heatmap_Net(input_feature_dim=self.input_feature_dim, npoints=[4096, 2048, 1024, 512],
                                            radius=[0.06, 0.25, 0.8, 1.2])
         else:
-            self.heatmap_net = Heatmap_Net(input_feature_dim=self.input_feature_dim, npoints=[2048, 1024, 512, 256],
+            self.heatmap_net = Heatmap_Net(input_feature_dim=self.input_feature_dim, npoints=[4096, 2048, 1024, 512],
                                            radius=[0.04, 0.08, 0.16, 0.24])
             '''pretrain heatmap prediction would help the performance in desktop setting'''
             pretrain_path = cfg['hm_pretrain_path']

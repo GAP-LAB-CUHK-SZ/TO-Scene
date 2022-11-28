@@ -71,9 +71,9 @@ def detect_trainer(cfg,model,optimizer,scheduler,train_loader,test_loader,checkp
                     "total_loss",
                     total_loss.item()
                 )
-                #cfg.log_string(msg)
+                cfg.log_string(msg)
                 # iter += 1
-                print(msg)
+                #print(msg)
             loss_dict={}
             for key in est_data:
                 if 'loss' in key or 'acc' in key or 'ratio' in key:
@@ -169,16 +169,17 @@ def heatmap_trainer(cfg,model,optimizer,scheduler,train_loader,test_loader,check
             total_loss = torch.mean(loss_dict["loss"])
             total_loss.backward()
             optimizer.step()
-            msg = "{:0>8},{}:{},[{}/{}],{}: {}".format(
-                str(datetime.timedelta(seconds=round(time.time() - start_t))),
-                "epoch",
-                e,
-                batch_id + 1,
-                len(train_loader),
-                "total_loss",
-                total_loss.item()
-            )
-            cfg.log_string(msg)
+            if iter%config['other']['log_interval']==0:
+                msg = "{:0>8},{}:{},[{}/{}],{}: {}".format(
+                    str(datetime.timedelta(seconds=round(time.time() - start_t))),
+                    "epoch",
+                    e,
+                    batch_id + 1,
+                    len(train_loader),
+                    "total_loss",
+                    total_loss.item()
+                )
+                cfg.log_string(msg)
             # iter += 1
             for loss in loss_dict:
                 if "total" not in loss:

@@ -285,6 +285,9 @@ def get_model(cfg,device):
     elif cfg['method']=="heatmap":
         from models.heatmap_net import Heatmap_Net
         model=Heatmap_Net(input_feature_dim=cfg['model']['input_feature_dim']).to(device)
+    elif cfg['method']=="votenet":
+        from models.votenet import VoteNet
+        model=VoteNet(cfg).to(device)
     else:
         raise NotImplementedError
     return model
@@ -301,7 +304,7 @@ def get_trainer(config):
     if config["method"]=="heatmap":
         from training import heatmap_trainer
         trainer=heatmap_trainer
-    elif config["method"]=="votenet_adaptive":
+    elif config["method"]=="votenet_adaptive" or config['method']=="votenet":
         from training import detect_trainer
         trainer=detect_trainer
     else:

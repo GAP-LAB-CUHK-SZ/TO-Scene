@@ -29,7 +29,7 @@ class DOS_desk_config(object):
                              59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75,
                              76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 92, 93])
         self.nyu40id2class = {nyu40id: i for i, nyu40id in enumerate(list(self.nyu40ids))}
-        self.mean_size_arr = np.load(os.path.join('./data/TO-crowd-means.npz'))['arr_0']
+        self.mean_size_arr = np.load(os.path.join('./data/doscannet_means_desklevel-axisalign-5e6.npz'))['arr_0']
         self.type_mean_size = {}
         for i in range(self.num_size_cluster):
             self.type_mean_size[self.class2type[i]] = self.mean_size_arr[i, :]

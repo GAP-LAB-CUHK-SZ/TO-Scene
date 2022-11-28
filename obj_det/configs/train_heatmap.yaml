@@ -1,9 +1,9 @@
 resume: False
 method: heatmap
-exp_name: TO-crowrd_heatmap_1121
+exp_name: TO-crowrd_heatmap_1124
 device:
   use_gpu: True
-  gpu_ids: "2"
+  gpu_ids: "3"
 data:
   dataset: TOS_desk
   data_dir: ./data/TO-crowd-wHM
@@ -18,7 +18,7 @@ model:
   input_feature_dim: 1
 optimizer:
   type: Adam
-  lr: 0.001
+  lr: 0.0001
   beta1: 0.9
   beta2: 0.999
   #momentum: 0
@@ -27,7 +27,7 @@ optimizer:
 scheduler:
   type: MultiStepLR
   milestone: [50,80]
-  gamma: 0.1
+  gamma: 0.2
 other:
   nepoch: 100
   model_save_interval: 1
@@ -35,3 +35,4 @@ other:
   dump_result: True
   dump_interval: 1000
   test_interval: 10
+  log_interval: 100
