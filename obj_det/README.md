@@ -40,3 +40,7 @@ Finally run the adaptive votenet by:
 ```angular2html
 python main.py --mode train --config ./configs/train_vote_adaptive_desk.yaml
 ```
+
+## Original VoteNet baseline
+
+If you wish to run original [VoteNet](https://github.com/facebookresearch/votenet) on our dataset, you may refer to the usage on [their official repo](https://github.com/facebookresearch/votenet) and our implementation [here](https://github.com/GAP-LAB-CUHK-SZ/TO-Scene/tree/main/obj_det/votenet).
