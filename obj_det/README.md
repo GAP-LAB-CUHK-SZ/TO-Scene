@@ -1,4 +1,5 @@
 ## Object detection using adaptive sampling
+
 ### Environment
 ```
 CUDA 11.1
@@ -27,10 +28,14 @@ Download TOS dataset with bbox, instance label and semantic label. Then, modify 
 Then run this script to generate the ground truth objectness map that is mentioned in the paper.
 <br>
 Then, put the TO-xxx-wHM folder under ./data
-### Training
-#### training on TO-crowd
+
+### Usage
+
+* Train
+
 For training the TO-crowd or TO-vanilla, it requires pretraining the heatmap module firstly,
 to train the heatmap module, run the following commands:
+
 ```angular2html
 python main.py --mode train --config ./configs/train_heatmap.yaml
 ```
