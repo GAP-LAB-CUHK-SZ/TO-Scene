@@ -63,21 +63,21 @@ Note that TO-scene dataset contains 60,174 tabletop object instances from 52 com
 
 **Small objects**
 
-| Class | Semantic | Class |    Semantic    | Class | Semantic       | Class |  Semantic  |
-| :---: | :------: | :---: | :------------: | ----- | -------------- | :---: | :--------: |
-|  41   |   bag    |  54   |     laptop     | 67    | chessboard     |  80   |   mirror   |
-|  42   |  bottle  |  55   |   microphone   | 68    | coffee_machine |  81   |  notebook  |
-|  43   |   bowl   |  56   |   microwave    | 69    | comb           |  82   |   pencil   |
-|  44   |  camera  |  57   |      mug       | 70    | cutting_board  |  83   |   plant    |
-|  45   |   can    |  58   |    printer     | 71    | dishes         |  84   |   plate    |
-|  46   |   cap    |  59   | remote_control | 72    | doll           |  85   |   radio    |
-|  47   |  clock   |  60   |     phone      | 73    | eraser         |  86   |   ruler    |
-|  48   | keyboard |  61   |     alarm      | 74    | eye_glasses    |  87   |  saucepan  |
-|  49   | display  |  62   |      book      | 75    | file_box       |  88   |   spoon    |
-|  50   | earphone |  63   |      cake      | 76    | fork           |  89   |  tea_pot   |
-|  51   |   jar    |  64   |   calculator   | 77    | fruit          |  90   |  toaster   |
-|  52   |  knife   |  65   |     candle     | 78    | globe          |  92   |    vase    |
-|  53   |   lamp   |  66   |    charger     | 79    | hat            |  93   | vegetables |
+| Class | Semantic | Class |    Semantic    | Class |    Semantic    | Class |  Semantic  |
+| :---: | :------: | :---: | :------------: | :---: | :------------: | :---: | :--------: |
+|  41   |   bag    |  54   |     laptop     |  67   |   chessboard   |  80   |   mirror   |
+|  42   |  bottle  |  55   |   microphone   |  68   | coffee_machine |  81   |  notebook  |
+|  43   |   bowl   |  56   |   microwave    |  69   |      comb      |  82   |   pencil   |
+|  44   |  camera  |  57   |      mug       |  70   | cutting_board  |  83   |   plant    |
+|  45   |   can    |  58   |    printer     |  71   |     dishes     |  84   |   plate    |
+|  46   |   cap    |  59   | remote_control |  72   |      doll      |  85   |   radio    |
+|  47   |  clock   |  60   |     phone      |  73   |     eraser     |  86   |   ruler    |
+|  48   | keyboard |  61   |     alarm      |  74   |  eye_glasses   |  87   |  saucepan  |
+|  49   | display  |  62   |      book      |  75   |    file_box    |  88   |   spoon    |
+|  50   | earphone |  63   |      cake      |  76   |      fork      |  89   |  tea_pot   |
+|  51   |   jar    |  64   |   calculator   |  77   |     fruit      |  90   |  toaster   |
+|  52   |  knife   |  65   |     candle     |  78   |     globe      |  92   |    vase    |
+|  53   |   lamp   |  66   |    charger     |  79   |      hat       |  93   | vegetables |
 
 ## Contact
 
