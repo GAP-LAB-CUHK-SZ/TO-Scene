@@ -48,6 +48,37 @@ You may also need to download **meta_data** at [Google Drive](https://drive.goog
 
 We have provided the code implementations for running [3D semantic segmentation](./sem_seg) and [3D object detection](./obj_det) on our dataset.
 
+Note that TO-scene dataset contains 60,174 tabletop object instances from 52 common classes. For reference, we show these small object classes below, which also can be downloaded [here](./classes.txt).
+
+**Big furniture**
+
+| Class | Semantic | Class | Semantic  | Class |   Semantic    |
+| :---: | :------: | :---: | :-------: | :---: | :-----------: |
+|   3   | cabinet  |   9   |  window   |  24   | refrigerator  |
+|   4   |   bed    |  10   | bookshelf |  28   | showercurtain |
+|   5   |  chair   |  11   |  picture  |  33   |    toilet     |
+|   6   |   sofa   |  12   |  counter  |  34   |     sink      |
+|   7   |  table   |  14   |   desk    |  36   |    bathtub    |
+|   8   |   door   |  16   |  curtain  |  39   |  garbagebin   |
+
+**Small objects**
+
+| Class | Semantic | Class |    Semantic    | Class | Semantic       | Class |  Semantic  |
+| :---: | :------: | :---: | :------------: | ----- | -------------- | :---: | :--------: |
+|  41   |   bag    |  54   |     laptop     | 67    | chessboard     |  80   |   mirror   |
+|  42   |  bottle  |  55   |   microphone   | 68    | coffee_machine |  81   |  notebook  |
+|  43   |   bowl   |  56   |   microwave    | 69    | comb           |  82   |   pencil   |
+|  44   |  camera  |  57   |      mug       | 70    | cutting_board  |  83   |   plant    |
+|  45   |   can    |  58   |    printer     | 71    | dishes         |  84   |   plate    |
+|  46   |   cap    |  59   | remote_control | 72    | doll           |  85   |   radio    |
+|  47   |  clock   |  60   |     phone      | 73    | eraser         |  86   |   ruler    |
+|  48   | keyboard |  61   |     alarm      | 74    | eye_glasses    |  87   |  saucepan  |
+|  49   | display  |  62   |      book      | 75    | file_box       |  88   |   spoon    |
+|  50   | earphone |  63   |      cake      | 76    | fork           |  89   |  tea_pot   |
+|  51   |   jar    |  64   |   calculator   | 77    | fruit          |  90   |  toaster   |
+|  52   |  knife   |  65   |     candle     | 78    | globe          |  92   |    vase    |
+|  53   |   lamp   |  66   |    charger     | 79    | hat            |  93   | vegetables |
+
 ## Contact
 
 If you have any questions, please contact Mutian Xu (mutianxu@link.cuhk.edu.cn) or Pei Chen (mikecp006@gmail.com).
