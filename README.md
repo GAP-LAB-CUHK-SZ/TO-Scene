@@ -48,7 +48,7 @@ You may also need to download **meta_data** at [Google Drive](https://drive.goog
 
 We have provided the code implementations for running [3D semantic segmentation](./sem_seg) and [3D object detection](./obj_det) on our dataset.
 
-Note that TO-scene dataset contains 60,174 tabletop object instances from 52 common classes. For reference, we show these small object classes below, which also can be downloaded [here](./classes.txt).
+Note that TO-scene dataset contains 60,174 tabletop object instances from 52 common classes. For reference, we show these small object classes below, which can be downloaded [here](./classes.txt) as well.
 
 **Big furniture**
 
