@@ -61,7 +61,7 @@ Note that TO-scene dataset contains 60,174 tabletop object instances from 52 com
 |   7   |  table   |  14   |   desk    |  36   |    bathtub    |
 |   8   |   door   |  16   |  curtain  |  39   |  garbagebin   |
 
-**Small objects**
+**Small tabletop objects**
 
 | Class | Semantic | Class |    Semantic    | Class |    Semantic    | Class |  Semantic  |
 | :---: | :------: | :---: | :------------: | :---: | :------------: | :---: | :--------: |
