@@ -44,13 +44,13 @@ TO-Scene contains 20,740 scenes with three different variants which are TO_Vanil
 
 You may also need to download **meta_data** at [Google Drive](https://drive.google.com/file/d/16E1Gb91ctGysmWhbeUwYF3-ssQ1Dw0Rm/view?usp=sharing) or [Baiduyun](https://pan.baidu.com/s/1jr2JHvxYS1cI3O0xb78lmQ?pwd=0000), including **train/val/test split** in format of .txt and pre-calculated **mean_size_arr** (mean size of objects of different classes).
 
-### 3. Build your own dataset
+### 3. Build your own dataset:
 
 We have released the original CAD placement file (json file, describing the position, scale, orientation of the small objects). You can run your own rendering and reconstruction based on this [original annotation file](./original_annotation), with parameters (e.g. point density) in your control.
 
 ## Benchmark on TO-Scene
 
-We have provided the code implementations for running [3D semantic segmentation](./sem_seg) and [3D object detection](./obj_det) on our dataset.
+We have provided the code implementations for running [3D semantic segmentation](./sem_seg) and [3D object detection](./obj_det) on our dataset, with the corresponding instructions.
 
 Note that TO-scene dataset contains 60,174 tabletop object instances from 52 common classes. For reference, we show these small object classes below, which can be downloaded [here](./classes.txt) as well.
 
