@@ -52,7 +52,7 @@ We have released the original CAD placement file (json file, describing the posi
 
 We have provided the code implementations for running [3D semantic segmentation](./sem_seg) and [3D object detection](./obj_det) on our dataset, with the corresponding instructions.
 
-Note that TO-scene dataset contains 60,174 tabletop object instances from 52 common classes. For reference, we show these small object classes below, which can be downloaded [here](./classes.txt) as well.
+Note that TO-Scene dataset contains 60,174 tabletop object instances from 52 common classes. For reference, we show the classes of these small tabltop objects below, which can be downloaded [here](./classes.txt) as well.
 
 **Big furniture**
 
