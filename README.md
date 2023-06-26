@@ -24,7 +24,7 @@ If you find our work useful in your research, please consider citing:
 
 TO-Scene contains 20,740 scenes with three different variants which are TO_Vanilla, TO_Crowd, TO_ScanNet.
 
-### 1. Full TO-Scene Data:
+### 1. Full TO-Scene data:
 - You can download our dataset with the corresponding variants from Google Drive:
 
 | Format                                                     | TO_Vanilla                                                   | TO_Crowd                                                     | TO_ScanNet                                                   |
