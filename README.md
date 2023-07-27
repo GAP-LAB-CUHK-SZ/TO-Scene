@@ -39,7 +39,7 @@ TO-Scene contains 20,740 scenes with three different variants which are TO_Vanil
 | **ply** (point cloud)                                      | [Download (4.3GB)](https://pan.baidu.com/s/1r0D6HnjHJC2eR-Ifwo6Iig?pwd=0000) | [Download (2.1GB)](https://pan.baidu.com/s/1jlrhJkFr00AXce55miRRmw?pwd=0000) | [Download (4.3GB)](https://pan.baidu.com/s/1wbynKbxWr4nNZLrBPSIAJw?pwd=0000) |
 | **npz** (xyz, color, semantic_label, instance_label, bbox) | [Download (6.2GB)](https://pan.baidu.com/s/1yXlFv5X8byEkuoFtuSAVUg?pwd=0000) | [Download (2.8GB)](https://pan.baidu.com/s/1mMJhOo-6uXMR9RPz3snG0g?pwd=0000) | [Download (6.5GB)](https://pan.baidu.com/s/1D-_M6L4iu5S7eRGgXQI0RA?pwd=0000) |
 
-Additionally, for **TO-Real** data we mentioned in the paper, you can download from [here](https://drive.google.com/file/d/1ubZLSrB4Z8M82A28awa2KAZbjJSg_mHY/view?usp=sharing).
+- Additionally, you can download our [TO-Real](https://drive.google.com/file/d/1ubZLSrB4Z8M82A28awa2KAZbjJSg_mHY/view?usp=sharing) data we mentioned in the paper, 
 
 ### 2. Meta data:
 
@@ -47,13 +47,13 @@ You may also need to download **meta_data** at [Google Drive](https://drive.goog
 
 ### 3. Build your own dataset:
 
-We have released the original CAD placement file (json file, describing the position, scale, orientation of the small objects). You can run your own rendering and reconstruction based on this [original annotation file](./original_annotation), with parameters (e.g. point density) in your control.
+We have released the original CAD placement file (json file, describing the position, scale, and orientation of the small objects). You can run your own rendering and reconstruction based on this [original annotation file](./original_annotation), with parameters (e.g. point density) in your control.
 
 ## Benchmark on TO-Scene
 
 We have provided the code implementations for running [3D semantic segmentation](./sem_seg) and [3D object detection](./obj_det) on our dataset, with the corresponding instructions.
 
-Note that TO-Scene dataset contains 60,174 tabletop object instances from 52 common classes. For reference, we show the classes of these small tabltop objects below, which can be downloaded [here](./classes.txt) as well.
+Note that TO-Scene dataset contains 60,174 tabletop object instances from 52 common classes. For reference, we show the classes of these small tabletop objects below, which can be downloaded [here](./classes.txt) as well.
 
 **Big furniture**
 
