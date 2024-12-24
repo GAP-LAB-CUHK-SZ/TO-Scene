@@ -20,6 +20,12 @@ If you find our work useful in your research, please consider citing:
 }
 ```
 
+## Update
+
+25/12/2024:
+
+TO-Scene becomes a standard benchmark for **small object detection**. You may try the code and follow the instruction provided by **[DSPDet3D](https://github.com/xuxw98/DSPDet3D)** to use our dataset for small object detection.
+
 ## Dataset
 
 TO-Scene contains 20,740 scenes with three different variants which are TO_Vanilla, TO_Crowd, TO_ScanNet.
